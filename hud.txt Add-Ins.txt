@@ -1,0 +1,6 @@
+
+title_mission		320	320missionfailed	0	0	72	16
+title_failed		320	320missionfailed	72	0	56	16
+
+title_mission		640	640mission	0	0	160	32
+title_failed		640	640failed	0	0	128	32

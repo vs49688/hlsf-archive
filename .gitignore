@@ -1,0 +1,13 @@
+/HLSFBETA12.7z
+/SpiritSource18.7z
+/Sources/Music/
+**/*.vcproj.*.user
+**/[dD]ebug/
+**/[rR]elease/
+**/[pP]rofile/
+**/[dD]ebughl/
+**/[rR]eleasehl/
+**/[pP]rofilehl/
+**/_UpgradeReport_File/
+**/UpgradeLog.XML
+**/*.ncb

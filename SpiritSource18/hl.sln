@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cl_dll", "cl_dll\cl_dll.vcproj", "{25286B9B-5AE8-441B-B41B-FB7E4E375C45}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hl", "dlls\hl.vcproj", "{935980DA-7313-4E5F-A378-1A80A0D2E8A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Profile|Win32 = Profile|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25286B9B-5AE8-441B-B41B-FB7E4E375C45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25286B9B-5AE8-441B-B41B-FB7E4E375C45}.Debug|Win32.Build.0 = Debug|Win32
+		{25286B9B-5AE8-441B-B41B-FB7E4E375C45}.Profile|Win32.ActiveCfg = Release|Win32
+		{25286B9B-5AE8-441B-B41B-FB7E4E375C45}.Profile|Win32.Build.0 = Release|Win32
+		{25286B9B-5AE8-441B-B41B-FB7E4E375C45}.Release|Win32.ActiveCfg = Release|Win32
+		{25286B9B-5AE8-441B-B41B-FB7E4E375C45}.Release|Win32.Build.0 = Release|Win32
+		{935980DA-7313-4E5F-A378-1A80A0D2E8A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{935980DA-7313-4E5F-A378-1A80A0D2E8A9}.Debug|Win32.Build.0 = Debug|Win32
+		{935980DA-7313-4E5F-A378-1A80A0D2E8A9}.Profile|Win32.ActiveCfg = Profile|Win32
+		{935980DA-7313-4E5F-A378-1A80A0D2E8A9}.Profile|Win32.Build.0 = Profile|Win32
+		{935980DA-7313-4E5F-A378-1A80A0D2E8A9}.Release|Win32.ActiveCfg = Release|Win32
+		{935980DA-7313-4E5F-A378-1A80A0D2E8A9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

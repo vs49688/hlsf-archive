@@ -1,0 +1,12 @@
+The text file that controls the HUD is cleverly named hud.txt. It can be found in the pak0.pak file in Sierra\Half-Life\tfc. Use PakExplorer to extract hud.txt to your tfc\sprites folder, then open it up in Notepad and have a look. As you'll no doubt remember, the HUD file we worked with earlier was named 640hud7.spr. A look through hud.txt shows how the game knows what to do with the sprite. Let's take a look at one line:
+
+number_0		640  640hud7	0	0	20	24
+
+Naturally a pretty basic line, but it helps illustrate what's going on. number_0 refers to, well, zero. Arguments about whether or not zero is a number will not be considered here. The game uses this line to determine where to look for a sprite when it needs to represent a zero on the HUD. The rest of the line is translated as follows:
+
+640: all resolutions of 640x480 or above will use these directions. Lower resolutions use the 320 instructions.
+640hud7: the name of the sprite that is to be used
+0: X-coordinate on the sprite where the game image should begin
+0: Y-coordinate on the sprite where the game image should begin
+20: Width of the sprite that should be used, in pixels
+24: Height of the sprite that should be used, in pixels 
